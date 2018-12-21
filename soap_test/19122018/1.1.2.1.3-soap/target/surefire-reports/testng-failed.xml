@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Identity-Scenario-Results]">
+  <parameter name="useDefaultListeners" value="false"/>
+  <test name="is-usr-mgt-scim2">
+    <classes>
+      <class name="org.wso2.identity.scenarios.test.user.mgt.remote.ProvisionUserSOAPServiceTestCase"/>
+    </classes>
+  </test> <!-- is-usr-mgt-scim2 -->
+</suite> <!-- Failed suite [Identity-Scenario-Results] -->

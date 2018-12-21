@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Identity-Scenario-Results" duration-ms="2384" started-at="2018-12-18T05:25:58Z" finished-at="2018-12-18T05:26:01Z">
+    <groups>
+    </groups>
+    <test name="is-usr-mgt-scim2" duration-ms="2384" started-at="2018-12-18T05:25:58Z" finished-at="2018-12-18T05:26:01Z">
+      <class name="org.wso2.identity.scenarios.test.scim2.ProvisionUserAdminRightsTestCase">
+        <test-method status="PASS" signature="testInit()[pri:0, instance:org.wso2.identity.scenarios.test.scim2.ProvisionUserAdminRightsTestCase@61832929]" name="testInit" is-config="true" duration-ms="1911" started-at="2018-12-18T10:55:58Z" finished-at="2018-12-18T10:56:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInit -->
+        <test-method status="PASS" signature="createUser()[pri:0, instance:org.wso2.identity.scenarios.test.scim2.ProvisionUserAdminRightsTestCase@61832929]" name="createUser" duration-ms="395" started-at="2018-12-18T10:56:00Z" finished-at="2018-12-18T10:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser -->
+        <test-method status="PASS" signature="testCreateAdminUser()[pri:0, instance:org.wso2.identity.scenarios.test.scim2.ProvisionUserAdminRightsTestCase@61832929]" name="testCreateAdminUser" duration-ms="63" started-at="2018-12-18T10:56:01Z" description="1.1.2.1.2.22" finished-at="2018-12-18T10:56:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateAdminUser -->
+      </class> <!-- org.wso2.identity.scenarios.test.scim2.ProvisionUserAdminRightsTestCase -->
+    </test> <!-- is-usr-mgt-scim2 -->
+  </suite> <!-- Identity-Scenario-Results -->
+</testng-results>

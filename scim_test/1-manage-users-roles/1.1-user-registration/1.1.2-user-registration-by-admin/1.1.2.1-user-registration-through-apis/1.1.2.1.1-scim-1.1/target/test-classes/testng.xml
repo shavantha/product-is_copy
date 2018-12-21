@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Identity-Scenario-Results">
+    <parameter name="useDefaultListeners" value="false"/>
+
+    <test name="is-usr-mgt-scim1" preserve-order="true" parallel="false">
+        <classes>
+          <!--  <class name="org.wso2.identity.scenarios.test.scim.UserProvisionSCIMTestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim.ProvisionUserWithAllAttributesTestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim.UpdateProvisionedUserSCIM1TestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim.UpdateProvisionedUserRoleSCIM1TestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim.ProvisionedUserDeleteSelfSCIM1TestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim.UserProvisionSCIMWithDifferentContentTypeTestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim.UserProvisionWithInsufficientPrivilegesSCIM1TestCase"/>-->
+            <class name="org.wso2.identity.scenarios.test.scim.ProvisionUserAdminRightsTestCase"/>
+        </classes>
+    </test>
+</suite>

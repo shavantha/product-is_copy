@@ -1,0 +1,22 @@
+{
+   "emails":[
+      {
+         "type":"work",
+         "value":"test@work.com"
+      },
+      {
+         "type":"home",
+         "value":"test@home.com",
+         "primary":"true"
+      }
+   ],
+   "password":"scim1pwd",
+   "schemas":[
+
+   ],
+   "name":{
+      "familyName":"scim1",
+      "givenName":"user1"
+   },
+   "userName":"scim1user"
+}

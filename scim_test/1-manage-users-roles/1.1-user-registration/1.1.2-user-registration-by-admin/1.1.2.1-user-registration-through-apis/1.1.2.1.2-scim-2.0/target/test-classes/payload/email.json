@@ -1,0 +1,10 @@
+{
+   "password":"scim2pass",
+   "schemas":[
+
+   ],
+   "name":{
+      "givenName":"user1"
+   },
+   "userName":"scim2user@wso2.com"
+}

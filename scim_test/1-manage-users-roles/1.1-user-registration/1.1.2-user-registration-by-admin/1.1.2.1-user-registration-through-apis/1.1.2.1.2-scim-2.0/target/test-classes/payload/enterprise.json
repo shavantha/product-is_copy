@@ -1,0 +1,83 @@
+{
+   "profileUrl":"https:\/\/login.example.com\/bjensen",
+   "x509Certificates":[
+      "MIIDQzCCAqygAwIBAgICEAAwDQYJKoZIhvcNAQEFBQAwTjELMAkGA1UEBhMCVVMx\nEzARBgNVBAgMCkNhbGlmb3JuaWExFDASBgNVBAoMC2V4YW1wbGUuY29tMRQwEgYD\nVQQDDAtleGFtcGxlLmNvbTAeFw0xMTEwMjIwNjI0MzFaFw0xMjEwMDQwNjI0MzFa\nMH8xCzAJBgNVBAYTAlVTMRMwEQYDVQQIDApDYWxpZm9ybmlhMRQwEgYDVQQKDAtl\neGFtcGxlLmNvbTEhMB8GA1UEAwwYTXMuIEJhcmJhcmEgSiBKZW5zZW4gSUlJMSIw\nIAYJKoZIhvcNAQkBFhNiamVuc2VuQGV4YW1wbGUuY29tMIIBIjANBgkqhkiG9w0B\nAQEFAAOCAQ8AMIIBCgKCAQEA7Kr+Dcds\/JQ5GwejJFcBIP682X3xpjis56AK02bc\n1FLgzdLI8auoR+cC9\/Vrh5t66HkQIOdA4unHh0AaZ4xL5PhVbXIPMB5vAPKpzz5i\nPSi8xO8SL7I7SDhcBVJhqVqr3HgllEG6UClDdHO7nkLuwXq8HcISKkbT5WFTVfFZ\nzidPl8HZ7DhXkZIRtJwBweq4bvm3hM1Os7UQH05ZS6cVDgweKNwdLLrT51ikSQG3\nDYrl+ft781UQRIqxgwqCfXEuDiinPh0kkvIi5jivVu1Z9QiwlYEdRbLJ4zJQBmDr\nSGTMYn4lRc2HgHO4DqB\/bnMVorHB0CC6AV1QoFK4GPe1LwIDAQABo3sweTAJBgNV\nHRMEAjAAMCwGCWCGSAGG+EIBDQQfFh1PcGVuU1NMIEdlbmVyYXRlZCBDZXJ0aWZp\nY2F0ZTAdBgNVHQ4EFgQU8pD0U0vsZIsaA16lL8En8bx0F\/gwHwYDVR0jBBgwFoAU\ndGeKitcaF7gnzsNwDx708kqaVt0wDQYJKoZIhvcNAQEFBQADgYEAA81SsFnOdYJt\nNg5Tcq+\/ByEDrBgnusx0jloUhByPMEVkoMZ3J7j1ZgI8rAbOkNngX8+pKfTiDz1R\nC4+dx8oU6Za+4NJXUjlL5CvV6BEYb1+QAEJwitTVvxB\/A67g42\/vzgAtoRUeDov1\nGFiBZ+GNF\/cAYKcMtGcrs2i97ZkJMo="
+   ],
+   "preferredLanguage":"en_US",
+   "displayName":"John Smith",
+   "timezone":"America\/Los_Angeles",
+   "type":"photo",
+   "title":"Tour Guide",
+   "locale":"en_US",
+   "photos":[
+
+   ],
+   "phoneNumbers":[
+      "555-555-5555",
+      "https:\/\/photos.example.com\/profilephoto\/72930000000Ccne\/F"
+   ],
+   "ims":[
+      "someaimhandle"
+   ],
+   "employeeNumber":"701984",
+   "emails":[
+      {
+         "type":"work",
+         "value":"test@work.com",
+         "primary":"true"
+      },
+      {
+         "type":"home",
+         "value":"test@home.com"
+      }
+   ],
+   "division":"Theme Park",
+   "password":"scim2pwd",
+   "Groups":[
+      "e9e30dba-f08f-4109-8486-d5c6a331660a"
+   ],
+   "id":"2819c223-7f76-453a-919d-413861904646",
+   "department":"Tour Operations",
+   "value":"https:\/\/photos.example.com\/profilephoto\/72930000000Ccne\/F",
+   "nickName":"nickname",
+   "costCenter":"4130",
+   "created":[
+      "2010-01-23T04:56:22Z"
+   ],
+   "display":[
+      "Tour Guides"
+   ],
+   "externalId":"701984",
+   "active":"true",
+   "managerId":[
+      "26118915-6090-4610-87e4-49d8ca9f808d"
+   ],
+   "userName":"scim2user",
+   "version":[
+      "W\\\/\/\"3694e05e9dff591\""
+   ],
+   "urn":"urn:scim:schemas:extension:enterprise:1.0",
+   "schemas":[
+      "urn:scim:schemas:extension:enterprise:1.0"
+   ],
+   "organization":"Universal Studios",
+   "name":{
+      "honorificSuffix":"III",
+      "formatted":"Ms. Barbara J Jensen III",
+      "familyName":"scim2",
+      "givenName":"user1",
+      "honorificPrefix":"Mr",
+      "middleName":"user1"
+   },
+   "location":[
+      "https:\/\/example.com\/v1\/Users\/2819c223-7f76-453a-919d-413861904646"
+   ],
+   "userType":"Employee",
+   "lastModified":[
+      "2011-05-13T04:42:34Z"
+   ],
+   "$ref":[
+      "\/Users\/26118915-6090-4610-87e4-49d8ca9f808d"
+   ]
+}
+

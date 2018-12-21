@@ -1,0 +1,11 @@
+{
+   "password":"scim2pass",
+   "schemas":[
+
+   ],
+   "name":{
+      "givenName":"newfirstname",
+      "familyName":"newfamilyname"
+   },
+   "userName":"scim2user"
+}

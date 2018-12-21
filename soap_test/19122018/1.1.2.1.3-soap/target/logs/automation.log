@@ -1,0 +1,5 @@
+2018-12-19 21:01:47,375 WARN  [org.apache.axiom.util.stax.dialect.StAXDialectDetector] - Unable to determine dialect of the StAX implementation at jar:file:/home/shavantha/.m2/repository/org/apache/ws/commons/axiom/wso2/axiom/1.2.11.wso2v10/axiom-1.2.11.wso2v10.jar!/
+2018-12-19 21:01:47,781 WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2018-12-19 21:01:47,827 WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2018-12-19 21:01:47,863 WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.
+2018-12-19 21:01:47,873 WARN  [org.apache.commons.httpclient.HttpMethodBase] - Going to buffer response body of large or unknown size. Using getResponseBodyAsStream instead is recommended.

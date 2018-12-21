@@ -1,0 +1,10 @@
+{
+   "password":"scim2pass",
+   "schemas":[
+
+   ],
+   "nam":{
+      "givenName":"user1"
+   },
+   "userNa":"scim2user"
+}

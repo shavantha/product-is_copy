@@ -1,0 +1,10 @@
+{
+   "password":"sc",
+   "schemas":[
+
+   ],
+   "name":{
+      "givenName":"user1"
+   },
+   "userName":"scim1user"
+}

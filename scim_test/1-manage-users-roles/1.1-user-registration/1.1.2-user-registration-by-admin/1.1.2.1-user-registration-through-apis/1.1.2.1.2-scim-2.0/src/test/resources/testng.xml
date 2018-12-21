@@ -1,0 +1,45 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Identity-Scenario-Results">
+    <parameter name="useDefaultListeners" value="false"/>
+
+    <test name="is-usr-mgt-scim2" preserve-order="true" parallel="false">
+        <classes>
+<!--
+            <class name="org.wso2.identity.scenarios.test.scim2.ProvisionUserSCIM2TestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim2.ProvisionUserWithMalformedRequestTestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim2.ProvisionUserWithValidationFailuresTestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim2.ProvisionExistingUserTestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim2.ProvisionUserWithoutAuthHeaderTestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim2.ProvisionUserWithoutContentHeaderTestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim2.ProvisionUserWithAllAttributesTestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim2.UserProvisionSCIMWithDifferentContentTypeTestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim2.ProvisionUserSCIM2FullRequestTestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim2.ProvisionUserSCIM2EnterpriseUserRequestTestCase"/>
+-->
+            <!-- Run this test case only when the default value of UsernameJavaRegEx in JDBC user store has been changed
+                           to block @ sign ex:[a-zA-Z0-9._\-|//]{3,30}$ -->
+            <!--class name="org.wso2.identity.scenarios.test.scim2.FilterOutEmailUserProvisioningSCIM2TestCase"/-->
+
+            <!--The ProvisionEmailUserSCIM2TestCase works only with jdbc user store and fails with embedded ldap due to regex -->
+<!--
+            <class name="org.wso2.identity.scenarios.test.scim2.ProvisionEmailUserSCIM2TestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim2.AnonymousProvisioningTestCase"/>
+-->
+            <!--run this test case only if   <Resource context="(.*)/scim2/Me" secured="true" http-method="POST">
+         is set to false -->
+            <!--class name="org.wso2.identity.scenarios.test.scim2.AnonymousProvisioningWithoutHeaderTestCase"/-->
+<!--
+            <class
+            name="org.wso2.identity.scenarios.test.scim2.UserProvisionWithInsufficientPrivilegesSCIM2TestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim2.UpdateProvisionedUserSCIM2TestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim2.UpdateProvisionedUserRoleSCIM2TestCase"/>
+            <class name="org.wso2.identity.scenarios.test.scim2.ProvisionedUserDeleteSelfSCIM2TestCase"/>
+-->
+            <class name="org.wso2.identity.scenarios.test.scim2.ProvisionUserAdminRightsTestCase"/>
+            <!--Please uncomment this test case when a tenant is created in the identity server ex:admin@engineering
+            .com-->
+            <!--class name="org.wso2.identity.scenarios.test.scim2.ProvisionTenantUserSCIM2TestCase"/-->
+        </classes>
+    </test>
+</suite>

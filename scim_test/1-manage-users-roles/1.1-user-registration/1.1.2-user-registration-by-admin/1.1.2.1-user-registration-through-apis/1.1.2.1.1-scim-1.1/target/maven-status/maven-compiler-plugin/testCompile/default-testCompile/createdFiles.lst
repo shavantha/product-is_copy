@@ -1,0 +1,10 @@
+org/wso2/identity/scenarios/test/scim/UpdateProvisionedUserRoleSCIM1TestCase.class
+org/wso2/identity/scenarios/test/scim/UserProvisionSCIMWithDifferentContentTypeTestCase.class
+org/wso2/identity/scenarios/test/scim/ProvisionUserWithAllAttributesTestCase.class
+org/wso2/identity/scenarios/test/scim/SCIMConstants$Operators.class
+org/wso2/identity/scenarios/test/scim/UserProvisionWithInsufficientPrivilegesSCIM1TestCase.class
+org/wso2/identity/scenarios/test/scim/ProvisionUserAdminRightsTestCase.class
+org/wso2/identity/scenarios/test/scim/ProvisionedUserDeleteSelfSCIM1TestCase.class
+org/wso2/identity/scenarios/test/scim/UpdateProvisionedUserSCIM1TestCase.class
+org/wso2/identity/scenarios/test/scim/UserProvisionSCIMTestCase.class
+org/wso2/identity/scenarios/test/scim/SCIMConstants.class

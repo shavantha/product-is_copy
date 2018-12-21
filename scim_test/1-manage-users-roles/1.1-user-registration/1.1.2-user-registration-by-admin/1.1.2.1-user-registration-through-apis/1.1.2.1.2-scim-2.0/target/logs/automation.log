@@ -1,0 +1,2 @@
+2018-12-18 10:55:59,774 WARN  [org.apache.axiom.util.stax.dialect.StAXDialectDetector] - Unable to determine dialect of the StAX implementation at jar:file:/home/shavantha/.m2/repository/org/apache/ws/commons/axiom/wso2/axiom/1.2.11.wso2v10/axiom-1.2.11.wso2v10.jar!/
+2018-12-18 10:56:00,774 INFO  [org.wso2.identity.scenarios.commons.clients.login.AuthenticatorClient] - Login Successful

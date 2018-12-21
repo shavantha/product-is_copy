@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1.1.2.1.1-scim-1.1/scim1.1-test.iml" filepath="$PROJECT_DIR$/1.1.2.1.1-scim-1.1/scim1.1-test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-registration-through-apis.iml" filepath="$PROJECT_DIR$/user-registration-through-apis.iml" />
+    </modules>
+  </component>
+</project>
